@@ -1,0 +1,82 @@
+# Environment Configuration
+.env
+.env.*
+!.env.example
+
+# Composer Dependencies
+/vendor/
+composer.lock
+
+# Node Dependencies
+/node_modules/
+package-lock.json
+
+# Storage and Logs
+/storage/*
+!/storage/.gitkeep
+/logs/*
+!/logs/.gitkeep
+
+# Backups
+/storage/backups/*
+!/storage/backups/.gitkeep
+
+# Documents
+/storage/documents/*
+!/storage/documents/.gitkeep
+
+# Cache
+*.cache
+.phpunit.cache
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build and Compiled Files
+/public/build/
+/public/hot
+/public/storage
+/public/css/*.map
+/public/js/*.map
+
+# Test Coverage
+/coverage/
+.phpunit.result.cache
+
+# Temporary Files
+*.log
+*.bak
+*.tmp
+*.temp
+
+# Local Development Files
+*.local.php
+*.local.json
+docker-compose.override.yml
+
+# Security Files
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+
+# Application Specific
+/public/uploads/
+/public/images/screenshots/
+/public/images/icons/
